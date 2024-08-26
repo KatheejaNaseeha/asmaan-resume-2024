@@ -1,0 +1,53 @@
+.profile-image {
+    border-radius: 250px;     
+}
+body {
+    background: linear-gradient(270deg, #CAF4FF, #F6F5F2, #F3D0D7, #FFF7FC);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+}
+.gradient-background {
+	background: linear-gradient(270deg, #97E7E1, #CDE8E5, #E1AFD1, #BFF6C3);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;	 
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.lead {
+    font-family: "Noto Serif", serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #240750;
+}
+h2, h3, h4 {
+    font-family: "Times New Roman", Times, serif;
+}
+h5 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+li {
+    font-family: "Noto Serif", serif;
+    font-size: 14px;
+    padding: 5pt;
+}
+.row {
+    justify-content: center;
+    align-items: center;
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
